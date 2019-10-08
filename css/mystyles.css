@@ -1,0 +1,105 @@
+html {
+	  padding: 0;
+	  margin: 0;
+	  }
+	  
+body {
+	  padding: 55px;
+	  font-family: Verdana, Geneva, sans-serif;
+	  font-size: 13px;
+	  line-height: 16px;
+	  background-color: #FFF8DC;
+	  }
+header {
+	   padding: 40px;
+	   background-color: #B0C4DE;
+	   -webkit-border-radius: 15px 15px 0 0;
+       border-radius: 15px 15px 0 0;
+       -webkit-box-shadow: 3px 3px 3px 5px #D4D4D4;
+	   box-shadow: 3px 3px 3px 5px #C0C0C0;
+	   }
+nav {
+     float: left;	  	  	  
+	 margin-bottom: 30px;
+	 }
+main {
+	  clear: left;
+	  padding-left: 60px;
+	  font-size:14px;
+	  font-family: Georgia, "Times New Roman", Times, serif;
+	  }
+p { text-align: left;
+		line-height: 1.2;
+		}
+
+img {
+	border: dotted aqua;
+	float:right ;
+	}
+			  
+footer {
+		background-color: #B0C4DE; 
+		padding: 40px;
+		-webkit-border-radius: 0 0 15px 15px;
+		border-radius: 0 0 15px 15px ;
+		}
+h1  {
+	 color: #00FFFF;
+	 font-size: 65px;
+	 background-color:#C0C0C0; 
+	 padding :30px;
+	 font-family: Typewriter, "American Typewriter", Serif;
+	}			  	  
+h2  {
+	 font-size: 23px;
+	 margin-top: 14px;
+	 margin-bottom: 7px;
+	 font-family: Typewriter, "American Typewriter", Serif;
+	}
+h3  {
+	 margin-top: 14px;
+	 font-family: Georgia, "Times New Roman", Times, serif;
+	 font-size: 16px;
+	 }
+footer p{
+		 text-align: center;
+		} 	
+/*This style removes the bullet from each list item, stacks each list item horizontally, and creates a button appearance.*/
+
+nav ul li {
+			list-style-type: none;
+			float: left;
+			padding: 20px;
+			margin-right: 20px;
+			background-color: #B0C4DE;
+			}
+/* This style removes the underline from the hyperlink and applies a text color. */
+
+nav li a { 
+		  text-decoration: none;
+		  color: #F6F2F2;
+		 }
+		 
+/* This style changes the text color when the mouse hovers over it. */
+
+nav li a:hover {
+				color: #000;
+			   }
+			   
+.job-title { 
+			font-weight: bold;
+			padding: 0;
+			margin: 0;
+		   }				   	 			
+.job-place {
+			font-style: italic;
+			padding: 0;
+			margin: 0;
+			}
+.job-dates {
+			padding: 0;
+			margin: 0;
+			}
+.homemain { 
+		height:500px;
+		   }
